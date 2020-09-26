@@ -1,0 +1,400 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4853000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am able to navigate onto the login page",
+            "match": {
+              "location": "StepDefinition.steps.i_am_able_to_navigate_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T16:31:10.185Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3947000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.steps.beforetest()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "login with different user",
+        "description": "",
+        "id": "login-features;login-with-different-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.steps.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4495000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on the login button",
+            "match": {
+              "location": "StepDefinition.steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9157000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should see the username as \"Welcome Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Smith\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.steps.i_should_see_the_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4664000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am able to navigate onto the login page",
+            "match": {
+              "location": "StepDefinition.steps.i_am_able_to_navigate_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T16:31:33.161Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2157000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.steps.beforetest()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "login with different user",
+        "description": "",
+        "id": "login-features;login-with-different-user;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.steps.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter the username as \"linda.anderson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"linda.anderson\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter the password as \"linda.anderson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"linda.anderson\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2797000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on the login button",
+            "match": {
+              "location": "StepDefinition.steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9142000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should see the username as \"Welcome Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Smith\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.steps.i_should_see_the_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4081000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am able to navigate onto the login page",
+            "match": {
+              "location": "StepDefinition.steps.i_am_able_to_navigate_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T16:31:52.275Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1887000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.steps.beforetest()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Login as Negative Date",
+        "description": "",
+        "id": "login-features;login-as-negative-date",
+        "after": [
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.steps.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I enter the username as \"Linda.anderson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Linda.anderson\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter the password as \"Linda.anderson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Linda.anderson\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1080000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click on the login button",
+            "match": {
+              "location": "StepDefinition.steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I should see a Error message as \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid credentials\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinition.steps.i_should_see_a_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login Features",
+    "description": "This feature includes scenario that would validate the following features\n1.Login as Admin\n2.Login as Linda Anderson\n3.Login with Negative data",
+    "id": "login-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/login.feature",
+    "tags": [
+      {
+        "name": "@Positive",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
