@@ -37,8 +37,8 @@ Then I should see the username as "<name>"
 
 Examples:
 |user						|pwd						|name						|
-|Admin					|admin123				|Welcome Smith |
-|linda.anderson |linda.anderson	|Welcome Smith	|
+|Admin					|admin123				|Welcome Linda |
+|linda.anderson |linda.anderson	|Welcome Linda	|
 
 
 @Negative
